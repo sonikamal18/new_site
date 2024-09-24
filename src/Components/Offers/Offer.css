@@ -1,0 +1,48 @@
+.offer{
+    display: flex;
+    /* align-items: center; */
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    margin-bottom: 140px;
+    padding: 0px 140px;
+    background: linear-gradient(180deg , #df94dffa,#e1ffae8a 60%);
+}
+.offer-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+}
+.offer-left h1{
+  color: #171717;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.offer-left p{
+  color: #171717;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.offer-left button{
+    width: 270px;
+    height: 70px;
+    border-radius: 75px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.offer-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 50px;
+}
